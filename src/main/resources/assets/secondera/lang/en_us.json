@@ -2,5 +2,10 @@
   "item.secondera.cosmic_ingot": "Cosmic Ingot",
   "block.secondera.cosmic_block": "Cosmic Block",
   "block.secondera.cosmic_ore": "Cosmic Ore",
-  "itemGroup.cosmic":"Cosmic"
+  "itemGroup.cosmic":"Cosmic",
+  "item.secondera.cosmic_sword": "Cosmic Blade",
+  "item.secondera.cosmic_hoe": "Bitch",
+  "item.secondera.cosmic_axe": "Terrax's Axe",
+  "item.secondera.cosmic_shovel": "Worldeater",
+  "item.secondera.cosmic_pickaxe": "Constellation"
 }
