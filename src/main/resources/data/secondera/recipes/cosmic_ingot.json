@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "secondera:cosmic_ore"
+  },
+  "result": "secondera:cosmic_ingot",
+  "experience": 10.0,
+  "cookingtime": 400
+}

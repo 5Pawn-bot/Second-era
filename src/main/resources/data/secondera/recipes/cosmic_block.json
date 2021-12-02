@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "secondera:cosmic_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "secondera:cosmic_block",
+    "count": 1
+  }
+}
