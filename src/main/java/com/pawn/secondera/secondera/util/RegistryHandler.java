@@ -3,6 +3,7 @@ package com.pawn.secondera.secondera.util;
 import com.pawn.secondera.secondera.Secondera;
 import com.pawn.secondera.secondera.blocks.BlockItemBase;
 import com.pawn.secondera.secondera.blocks.Cosmicblock;
+import com.pawn.secondera.secondera.blocks.Cosmicore;
 import com.pawn.secondera.secondera.items.ItemBase;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -29,10 +30,12 @@ public class RegistryHandler {
         // Blocks
 
         public static final RegistryObject<Block> COSMIC_BLOCK = BLOCKS.register("cosmic_block", Cosmicblock:: new);
+        public static final RegistryObject<Block> COSMIC_ORE = BLOCKS.register("cosmic_ore", Cosmicore::new);
 
         //Block Items
 
         public static final RegistryObject<Item> COSMIC_BLOCK_ITEM = ITEMS.register("cosmic_block",() -> new BlockItemBase(COSMIC_BLOCK.get()));
+        public static final RegistryObject<Item> COSMIC_ORE_ITEM = ITEMS.register("cosmic_ore",()->new BlockItemBase(COSMIC_ORE.get()));
 
 
 }

@@ -1,5 +1,6 @@
 {
   "item.secondera.cosmic_ingot": "Cosmic Ingot",
-  "block.secondera.cosmic_block)": "Cosmic Block",
+  "block.secondera.cosmic_block": "Cosmic Block",
+  "block.secondera.cosmic_ore": "Cosmic Ore",
   "itemGroup.cosmic":"Cosmic"
 }
