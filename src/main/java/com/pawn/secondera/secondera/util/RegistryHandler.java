@@ -1,6 +1,7 @@
 package com.pawn.secondera.secondera.util;
 
 import com.pawn.secondera.secondera.Secondera;
+import com.pawn.secondera.secondera.amour.ModAmourMaterial;
 import com.pawn.secondera.secondera.blocks.BlockItemBase;
 import com.pawn.secondera.secondera.blocks.Cosmicblock;
 import com.pawn.secondera.secondera.blocks.Cosmicore;
@@ -8,6 +9,7 @@ import com.pawn.secondera.secondera.items.ItemBase;
 import com.pawn.secondera.secondera.tools.ModItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.client.tutorial.Tutorial;
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -44,6 +46,21 @@ public class RegistryHandler {
 
         public static final RegistryObject<ShovelItem> COSMIC_SHOVEL = ITEMS.register("cosmic_shovel",()->
                 new ShovelItem(ModItemTier.COSMIC, 1,-1.0F,new Item.Properties().group(Secondera.TAB).isImmuneToFire()));
+
+        //Amour
+
+        public static final RegistryObject<ArmorItem> COSMIC_HELMET = ITEMS.register("cosmic_helmet",()->
+                new ArmorItem(ModAmourMaterial.COSMIC, EquipmentSlotType.HEAD,new Item.Properties().group(Secondera.TAB)));
+
+        public static final RegistryObject<ArmorItem> COSMIC_CHESTPLATE = ITEMS.register("cosmic_chestplate",()->
+                new ArmorItem(ModAmourMaterial.COSMIC, EquipmentSlotType.CHEST,new Item.Properties().group(Secondera.TAB)));
+
+        public static final RegistryObject<ArmorItem> COSMIC_LEGGINGS = ITEMS.register("cosmic_leggings",()->
+                new ArmorItem(ModAmourMaterial.COSMIC, EquipmentSlotType.LEGS,new Item.Properties().group(Secondera.TAB)));
+
+        public static final RegistryObject<ArmorItem> COSMIC_BOOTS = ITEMS.register("cosmic_boots",()->
+                new ArmorItem(ModAmourMaterial.COSMIC, EquipmentSlotType.FEET,new Item.Properties().group(Secondera.TAB)));
+
 
         // Blocks
 
